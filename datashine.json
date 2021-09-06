@@ -1,0 +1,191 @@
+{
+    "data" : [
+        {
+            "name" : "Population Basics",
+            "filters" : [
+                {
+                    "name" : "Sex",
+                    "description": "All usual residents. More information ...",
+                    "filters" : [
+                        {
+                            "name" : "male",
+                            "filter:": "XQRW7" 
+                        },
+                        {
+                            "name" : "female",
+                            "filter":"XQRW8"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "name": "Origins and Beliefs",
+            "filters" : [
+                {
+                    "name": "Ethnic group",
+                    "description": "All usual residents. More information and data download from NOMIS",
+                    "counttype": "Person",
+                    "filters": [
+                        {
+                            "name": "White",
+                            "filters": [
+                                {
+                                    "name": "English, Welsh, Scottish, Northern Irish, British",
+                                    "percentage": 87.13,
+                                    "standarddeviation": 16.71,
+                                    "filter":"XQKP1"
+                                    
+                                },
+                                {
+                                    "name": "Irish",
+                                    "percentage": 0.76,
+                                    "standarddeviation": 0.67,
+                                    "filter":"XQKP2"
+                                },
+                                {
+                                    "name": "Gipsy or Irish Traveller",
+                                    "percentage": 0.11,
+                                    "standarddeviation": 0.22,
+                                    "filter":"XQKP3"
+                                },
+                                {
+                                    "name": "Other white",
+                                    "percentage": 3.47,
+                                    "standarddeviation": 4.16,
+                                    "filter":"XQKP4"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mixed, multiethnic group",
+                            "filters": [
+                                {
+                                    "name": "White and Black Caribbean",
+                                    "percentage": 0.74,
+                                    "standarddeviation": 1.16,
+                                    "filter":"XQLP1"
+                                },
+                                {
+                                    "name": "White and Black African",
+                                    "percentage": 2.23,
+                                    "standarddeviation": 5.77,
+                                    "filter":"XQLP2"
+                                },
+                                {
+                                    "name": "White and Asian",
+                                    "percentage": 2.23,
+                                    "standarddeviation": 5.77,
+                                    "filter":"XQLP3"
+                                },
+                                {
+                                    "name": "Other Mixed",
+                                    "percentage": 0.50,
+                                    "standarddeviation": 0.68,
+                                    "filter":"XQLP4"
+                                    
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Asian, Asian British",
+                            "filters": [
+                                {
+                                    "name": "Indian",
+                                    "percentage": 1.56,
+                                    "standarddeviation": 4.16,
+                                    "filter":"XQMP1"
+                                },
+                                {
+                                    "name": "Pakistani",
+                                    "percentage": 1.05,
+                                    "standarddeviation": 4.09,
+                                    "filter":"XQMP2"
+                                },
+                                {
+                                    "name": "Bangladeshi",
+                                    "percentage": 0.44,
+                                    "standarddeviation": 2.10,
+                                    "filter":"XQMP3"
+                                },
+                                {
+                                    "name": "Chinese",
+                                    "percentage": 0.50,
+                                    "standarddeviation": 0.83,
+                                    "filter":"XQMP4"
+                                },
+                                {
+                                    "name": "Other Asian",
+                                    "percentage": 0.98,
+                                    "standarddeviation": 5.77,
+                                    "filter":"XQMP5"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Other ethnic group",
+                            "filters": [
+                                {
+                                    "name": "Arab",
+                                    "percentage": 0.39,
+                                    "standarddeviation": 1.41,
+                                    "filter":"XQOP1"
+                                },
+                                {
+                                    "name": "Any other ethnic group",
+                                    "percentage": 0.36,
+                                    "standarddeviation": 0.69,
+                                    "filter":"XQOP2"
+                                }
+
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    "name": "Multiple ethnic groups",
+                    "description": "All households. More information and data download from NOMIS",
+                    "counttype": "Household",
+                    "filters": [
+                        {
+                            "name": "One person household",
+                            "percentage": 29.02,
+                            "standarddeviation": 6.22,
+                            "filter":"XQTP1"
+                        },
+                        {
+                            "name": "All household members have the same ethnic group",
+                            "percentage": 64.04,
+                            "standarddeviation": 8.79,
+                            "filter":"XQTP2"
+                        },
+                        {
+                            "name": "Different ethnic groups between the generations only",
+                            "percentage": 1.58,
+                            "standarddeviation": 1.71,
+                            "filter":"XQTP3"
+                        },
+                        {
+                            "name": "Different ethnic groups within partnerships (whether or not different ethnic groups",
+                            "percentage": 3.98,
+                            "standarddeviation": 2.46,
+                            "filter":"XQTP4"
+                        },
+                        {
+                            "name": "Any other combination of multiple ethnic groups",
+                            "percentage": 1.38,
+                            "standarddeviation": 2.07,
+                            "filter":"XQTP5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+

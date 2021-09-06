@@ -1,0 +1,55 @@
+{
+    "cities":
+    [
+        {
+            "name" : "Birmingham",
+            "latitude": 52.4900,
+            "longitude":-1.9500
+        }, 
+        {
+            "name" : "Brighton",
+            "latitude": 53.4900,
+            "longitude":-1.9500
+        }, 
+        {
+            "name" : "Bristol",
+            "latitude": 54.4900,
+            "longitude":-1.9500
+        }, 
+        {
+            "name" : "Cardiff",
+            "latitude": 55.4900,
+            "longitude":-2.9500
+        }, 
+        {
+            "name" : "Leeds",
+            "latitude": 56.4900,
+            "longitude":-3.9500
+        }, 
+        {
+            "name" : "Liverpool",
+            "latitude": 57.4900,
+            "longitude":-4.9500
+        }, 
+        {
+            "name" : "London",
+            "latitude": 58.4900,
+            "longitude":-5.9500
+        }, 
+        {
+            "name" : "Manchester",
+            "latitude": 59.4900,
+            "longitude":-6.9500
+        }, 
+        {
+            "name" : "New Castle",
+            "latitude": 60.4900,
+            "longitude":-7.9500
+        }, 
+        {
+            "name" : "Plymouth",
+            "latitude": 61.4900,
+            "longitude":-8.9500
+        }
+    ]
+}

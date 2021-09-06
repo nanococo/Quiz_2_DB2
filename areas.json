@@ -1,0 +1,102 @@
+{
+  "areas": [
+    {
+      "areaCode": "E103540",
+      "filter": "XQRW7",
+      "polygon": [
+        1321.1354, 
+        1686.237, 
+        1253.12
+      ],
+      "zoom": false,
+      "percentage": 45.6
+    },
+    {
+      "areaCode": "E1006482",
+      "filter": "XQRW7",
+      "polygon": [
+        1723.1354, 
+        1855.237, 
+        1598.12
+      ],
+      "zoom": true,
+      "percentage": 45.6
+    },
+    {
+      "areaCode": "E0007459",
+      "filter":"XQRW8",
+      "polygon": [
+        1998.1354, 
+        1856.237, 
+        1498.1354, 
+        1866.237, 
+        1542.12
+      ],
+      "zoom": false,
+      "percentage": 45.6
+    },
+    {
+      "areaCode": "E103540",
+      "filter":"XQRW8",
+      "polygon": [
+        1321.1354, 
+        1856.237, 
+        1856.237, 
+        1498.1354, 
+        1866.237, 
+        1563.12
+      ],
+      "zoom": true,
+      "percentage": 45.6
+    },
+    {
+      "areaCode": "E00008176",
+      "filter":"XQKP1",
+      "polygon": [
+        1321.1354, 
+        1686.237, 
+        1253.12
+      ],
+      "zoom": false,
+      "percentage": 72.0
+    },
+    {
+      "areaCode": "E00176554",
+      "filter":"XQKP1",
+      "polygon": [
+        1723.1354, 
+        1855.237, 
+        1598.12
+      ],
+      "zoom": true,
+      "percentage": 56.3
+    },
+    {
+      "areaCode": "E00008176",
+      "filter":"XQKP3",
+      "polygon": [
+        1998.1354, 
+        1856.237, 
+        1498.1354, 
+        1866.237, 
+        1542.12
+      ],
+      "zoom": false,
+      "percentage": 63.6
+    },
+    {
+      "areaCode": "E00176554",
+      "filter":"XQKP3",
+      "polygon": [
+        1321.1354, 
+        1856.237, 
+        1856.237, 
+        1498.1354, 
+        1866.237, 
+        1563.12
+      ],
+      "zoom": true,
+      "percentage": 23.6
+    }
+  ]
+}   
