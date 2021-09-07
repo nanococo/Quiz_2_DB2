@@ -6,14 +6,500 @@
                 {
                     "name" : "Sex",
                     "description": "All usual residents. More information ...",
+                    "counttype": "Person",
                     "filters" : [
                         {
-                            "name" : "male",
-                            "filter:": "XQRW7" 
+                            "name" : "Males",
+                            "percentage": 87.13,
+                            "standarddeviation": 16.71,
+                            "filter:": "PBSE1" 
                         },
                         {
-                            "name" : "female",
-                            "filter":"XQRW8"
+                            "name" : "Females",
+                            "percentage": 87.13,
+                            "standarddeviation": 16.71,
+                            "filter":"PBSE2"
+                        }
+                    ]
+                },
+                {
+                
+                    "name" : "Residence type",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Lives in a household",
+                            "percentage": 87.13,
+                            "standarddeviation": 16.71,
+                            "filter:": "PBRT1" 
+                        },
+                        {
+                            "name" : "Lives in a communal establishment",
+                            "percentage": 87.13,
+                            "standarddeviation": 16.71,
+                            "filter":"PBRT2"
+                        },
+                        {
+                            "name" : "Communal establishments with persons sleeping rough identified",
+                            "percentage": 87.13,
+                            "standarddeviation": 16.71,
+                            "filter":"PBRT3"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Age by single year",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Age under 1",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY0" 
+                        },
+                        {
+                            "name" : "Age 1",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY1" 
+                        
+                        },
+                        {
+                            "name" : "Age 2",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY2" 
+                        
+                        },
+                        {
+                            "name" : "Age 3",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY3" 
+                        
+                        },
+                        {
+                            "name" : "Age 4",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY4" 
+                        
+                        },
+                        {
+                            "name" : "Age 5",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY5" 
+                        
+                        },
+                        {
+                            "name" : "Age 6",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY6" 
+                        
+                        },
+                        {
+                            "name" : "Age 7",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY7" 
+                        
+                        },
+                        {
+                            "name" : "Age 8",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY8" 
+                        
+                        },
+                        {
+                            "name" : "Age 9",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY9" 
+                        
+                        },
+                        {
+                            "name" : "Age 10",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY10" 
+                        
+                        },
+                        {
+                            "name" : "Age 11",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY11" 
+                        
+                        },
+                        {
+                            "name" : "Age 12",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY12" 
+                        
+                        },
+                        {
+                            "name" : "Age 13",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY13" 
+                        
+                        },
+                        {
+                            "name" : "Age 14",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY14" 
+                        
+                        },
+                        {
+                            "name" : "Age 15",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY15" 
+                        
+                        },
+                        {
+                            "name" : "Age 16",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY16" 
+                        },
+                        {
+                            "name" : "Age 17",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY17" 
+                        },
+                        {
+                            "name" : "Age 18",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY18" 
+                        
+                        },
+                        {
+                            "name" : "Age 19",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY19" 
+                        
+                        },
+                        {
+                            "name" : "Age 20",
+                            "percentage": 1.25,
+                            "standarddeviation": 0.88,
+                            "filter:": "PBAY20" 
+                        
+                        }  
+                    ]
+                },
+                {
+                    "name" : "Schoolchildren and full-time students at their non term-time address",
+                    "description": "All school children and full-time students aged 4 and over their non term-time address. More information ...",
+                    "filters" : [
+                        {
+                            "name" : "Males",
+                            "percentage": 49.76,
+                            "standarddeviation": 31.96,
+                            "filter:": "PBSC1" 
+                        },
+                        {
+                            "name" : "Females",
+                            "percentage": 50.24,
+                            "standarddeviation": 31.96,
+                            "filter":"PBSC2"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Second address",
+                    "description": "All usual residents. More information ...",
+                    "filters" : [
+                        {
+                            "name" : "No second address",
+                            "percentage": 95.71,
+                            "standarddeviation": 6.32,
+                            "filter:": "PBSA1" 
+                        },
+                        {
+                            "name" : "Second address within the UK",
+                            "percentage": 3.39,
+                            "standarddeviation": 5.19,
+                            "filter":"PBSA2"
+                        },
+                        {
+                            "name" : "Second address outside the UK",
+                            "percentage": 1.49,
+                            "standarddeviation": 2.09,
+                            "filter":"PBSA3"
+                        } 
+                    ]
+                },
+                {
+                    "name" : "Living arrangements",
+                    "description": "All usual residents aged 16. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Living in a couple",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBLC1"
+                                },
+                                {
+                                    "name" : "Married",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBLC2"
+                                },
+                                {
+                                    "name" : "In a registered same-sex partnership or cohabiting (same sex)",
+                                    "percentage": 0.88,
+                                    "standarddeviation": 11.0,
+                                    "filter":"PBLC3"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Not living in a couple",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBNC4"
+                                },
+                                {
+                                    "name" : "Single (never married or never registered a same-sex partnership)",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBNC5"
+                                },
+                                {
+                                    "name" : "Married or in a registered same-sex civil partnership",
+                                    "percentage": 0.88,
+                                    "standarddeviation": 11.0,
+                                    "filter":"PBNC6"
+                                },
+                                {
+                                    "name" : "Separated (but still legally married or still legally in a same sex civil partnership)",
+                                    "percentage": 0.88,
+                                    "standarddeviation": 11.0,
+                                    "filter":"PBNC7"
+                                },
+                                {
+                                    "name" : "Divorced or formerly in a same-sex civil partnership which is now legally dissolved",
+                                    "percentage": 0.88,
+                                    "standarddeviation": 11.0,
+                                    "filter":"PBNC8"
+                                },
+                                {
+                                    "name" : "Widowed or survivng partner from a same-sex partnership",
+                                    "percentage": 0.88,
+                                    "standarddeviation": 11.0,
+                                    "filter":"PBNC9"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Adult lifestage (alternative adult definition)",
+                    "filters:": [
+                        {
+                            "name" : "Age 16 to 24",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL1"
+                                },
+                                {
+                                    "name" : "No dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL2"
+                                },
+                                {
+                                    "name" : "Dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL3"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Age 25 to 34",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL4"
+                                },
+                                {
+                                    "name" : "No dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL5"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 0 to 4",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL6"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 5 to 10",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL7"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 11 to 15",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL7"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 16 to 18",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL7"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Age 35 to 54",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL8"
+                                },
+                                {
+                                    "name" : "No dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL9"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 0 to 4",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL10"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 5 to 10",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL11"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 11 to 15",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL12"
+                                },
+                                {
+                                    "name" : "Youngest dependent children in household aged 16 to 18",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL13"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Age 55 to 64",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL14"
+                                },
+                                {
+                                    "name" : "One person household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL15"
+                                },
+                                {
+                                    "name" : "Two or more person household: No dependent children",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL16"
+                                },
+                                {
+                                    "name" : "Dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL17"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Age 65 to 74",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL18"
+                                },
+                                {
+                                    "name" : "One person household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL19"
+                                },
+                                {
+                                    "name" : "Two or more person household: No dependent children",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL20"
+                                },
+                                {
+                                    "name" : "Dependent children in household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL21"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Age 75 and over",
+                            "filters:": [
+                                {
+                                    "name" : "Total",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL22"
+                                },
+                                {
+                                    "name" : "One person household",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL23"
+                                },
+                                {
+                                    "name" : "Two or more person household: No dependent children",
+                                    "percentage": 57.46,
+                                    "standarddeviation": 12.51,
+                                    "filter":"PBAL22"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -181,9 +667,158 @@
                     ]
                 }
             ]
+        },
+        {
+            "name" : "Health",
+            "filters" : [
+                {
+                    "name" : "Provision of unpaid care",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Provides of unpaid care",
+                            "percentage": 89.54,
+                            "standarddeviation": 3.35,
+                            "filter:": "PHCE1" 
+                        },
+                        {
+                            "name" : "Provides 1 to 19 hours unpaid care a week",
+                            "percentage": 6.60,
+                            "standarddeviation": 2.62,
+                            "filter":"PHCE2"
+                        },
+                        {
+                            "name" : "Provides 20 to 49 hours unpaid care a week",
+                            "percentage": 1.39,
+                            "standarddeviation": 0.88,
+                            "filter":"PHCE3"
+                        },
+                        {
+                            "name" : "Provides 50 or more hours unpaid care a week",
+                            "percentage": 2.47,
+                            "standarddeviation": 1.49,
+                            "filter":"PHCE4"
+                        }
+                    ]
+                },
+                {
+                    "name" : "General health",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Very good health",
+                            "percentage": 46.53,
+                            "standarddeviation": 8.86,
+                            "filter:": "PGHE1" 
+                        },
+                        {
+                            "name" : "Good health",
+                            "percentage": 34.11,
+                            "standarddeviation": 4.49,
+                            "filter":"PGHE2"
+                        },
+                        {
+                            "name" : "Fair Health",
+                            "percentage": 13.56,
+                            "standarddeviation": 5.01,
+                            "filter":"PGHE3"
+                        },
+                        {
+                            "name" : "Bad Health",
+                            "percentage": 4.49,
+                            "standarddeviation": 2.88,
+                            "filter":"PGHE4"
+                        },
+                        {
+                            "name" : "Very Bad Health",
+                            "percentage": 1.32,
+                            "standarddeviation": 1.17,
+                            "filter":"PGHE4"
+                        }
+                    ]
+                },
+                {
+                    "name" : "Long Term health problem or disability",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                            "name" : "Day-to-day activities limited a lot",
+                            "percentage": 8.81,
+                            "standarddeviation": 5.36,
+                            "filter:": "PLTH1" 
+                        },
+                        {
+                            "name" : "Day-to-day activities limited a little",
+                            "percentage": 9.69,
+                            "standarddeviation": 3.63,
+                            "filter":"PLTH2"
+                        },
+                        {
+                            "name" : "Day-to-day activities not limited",
+                            "percentage": 81.49,
+                            "standarddeviation": 8.14,
+                            "filter":"PLTH3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Residency",
+            "filters" : [
+                {
+                    "name" : "Age of arrival in the UK",
+                    "description": "All usual residents. More information ...",
+                    "counttype": "Person",
+                    "filters" : [
+                        {
+                
+                            "name" : "Age of arrival in the UK",
+                            "filters" : [
+                                {
+                                    "name" : "0 to 4",
+                                    "percentage": 1.63,
+                                    "standarddeviation": 1.34,
+                                    "filter:": "PAUK1" 
+                                },
+                                {
+                                    "name" : "5 to 7",
+                                    "percentage": 0.58,
+                                    "standarddeviation": 0.71,
+                                    "filter":"PAUK2"
+                                },
+                                {
+                                    "name" : "8 to 9",
+                                    "percentage": 0.51,
+                                    "standarddeviation": 0.51,
+                                    "filter":"PAUK3"
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Born in the UK",
+                            "percentage": 87.27,
+                            "standarddeviation": 13.98,
+                            "filter":"PBUK1"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
+
+
+              
+        
+    
+
+
+    
+
 
 
 
